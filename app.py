@@ -3,7 +3,7 @@ import pandas as pd
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="Retirement Engine v9.0",
+    page_title="Retirement Capital Utilisation Calculator",
     page_icon="📈",
     layout="wide"
 )
@@ -111,7 +111,7 @@ with st.sidebar.expander("Market Assumptions", expanded=False):
 
 # --- MAIN PAGE: PORTFOLIO ARCHITECT ---
 st.title("Retirement Engine v9.0")
-st.markdown("### 🏛️ Portfolio Architect")
+st.markdown("### 🏛️ Personal Capital Planner")
 
 col1, col2 = st.columns(2)
 
